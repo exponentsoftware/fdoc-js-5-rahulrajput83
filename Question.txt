@@ -1,0 +1,24 @@
+What is the difference between forEach, map, filter and reduce ? Explain these using your own words
+
+forEach is used to iterate through each element of array.
+map is used to modify/edit element of array.
+filter is used to search in array, it will return array of elements which matches the condition.
+reduce is used to one element by combining all element of array.
+
+Explain the difference between function declaration and arrow function ?
+
+Arrow functions do not have arguments binding and do not have their own 'this' keyword.
+
+Explain the difference between find and findIndex ?
+
+find returns first element which satisfies the defined condition and findIndex returns index of satisfies condition element from array.
+
+If you like to filter out one object element in an array which method do you like to use: filter or find ? Explain
+
+I will use find because find returns only one element which first satisfies the condition on the other hand, filter returns array of all element which satisfies the condition. Here we have filter only one element so find will be good to use for this.
+
+Explain the difference of var, let and const when we declare a variable ?
+
+Variables declared with 'var' have global scope, once declared we can also access the variables outside the function. These variable can re-declared.
+Variables declared with 'let' have local scope. We can only access these variables locally. Once declared can't declared in that scope.
+Variables declared with 'const' have local scope. Once declare we can't update these variable but can access in declared scope. Once declared can't declared in that scope.
